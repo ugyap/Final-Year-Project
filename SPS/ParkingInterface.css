@@ -1,0 +1,108 @@
+@import "nav.css";
+* {
+	margin: 0;
+	padding: 0;
+	boxing-sizing: border-box;
+}
+
+body{
+	background-image: url("background.jpg");
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+header img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+header h1{
+	position: relative;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+	top: 25px;
+	left: 10px;
+	margin-bottom: 80px;
+	overflow: hidden;
+	font-family: 'Droid Sans', Serif;
+	font-size: 40px;
+	color: black;
+}
+
+
+header{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+	z-index: 10;
+}
+
+#parking{
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 900px;
+	height: 650px;
+	border: 6px solid black;
+	border-left: 1px solid black;
+}
+
+.row1{
+	display: flex;
+}
+.P1to3{
+	width: 300px;
+	height: 275px;
+	border-left: 5px solid black;
+	background-color: lightgrey;
+}
+.road{
+	background:white;
+	height: 100px;
+}
+.road img{
+	float:left;
+	padding-left: 250px;
+}
+
+.row2{
+	margin-top: 0px;
+	display: flex;
+}
+.P4to6{
+	width: 300px;
+	height: 275px;
+	border-left: 5px solid black;
+	background-color: lightgrey;
+}
+
+.login{
+	float:left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.login a{
+	color: black;
+	font-family: 'Droid Sans', cursive;
+	padding: 25px 10px 15px 10px;
+	border: 2px solid black;
+}
+
+.login a:hover{
+	background-color: red;
+	color: white;
+}
+
+.book
+{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}

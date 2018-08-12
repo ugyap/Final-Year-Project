@@ -1,0 +1,51 @@
+@import "nav.css";
+* {font-family: Tahoma, Geneva, sans-serif;}
+
+body{
+	margin:0;
+	padding:0;
+	background-image: url("welcome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.banner img{
+	background: white;
+	height: auto;
+	width: auto;
+	margin-top:20px;
+	margin-bottom: 300px;
+}
+
+#spslogo{
+	
+}
+#spslogo img{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 100px;
+	height: 100px;
+}
+#spslogo h1{
+	position: relative;
+	float:left;
+	top: 20px;
+	left: 20px;
+	margin-bottom: 80px;
+	font-size: 40px;
+	color: white;
+}
+
+.banner{
+	width: 800px;
+	margin: 0 auto;
+}
+.banner img{
+	width: 800px;
+	height: 300px;
+}
